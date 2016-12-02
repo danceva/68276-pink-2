@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+
+    <header>
+      <div class="page-header__logo">
+        <img src="http://placehold.it/150x100" width="" height="" alt="Pink">
+      </div>
+      <nav class="main-nav main-nav__closed main-nav--nojs">
+        <button class="main-nav__toggle" type="button">Открыть меню</button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__items">
+            <li class="main-nav__item  main-nav__item--active"><a>Главная</a></li>
+            <li class="main-nav__item"><a href="">Фотографии</a></li>
+            <li class="main-nav__item"><a href="">Конкурс</a></li>
+            <li class="main-nav__item"><a href="">HTML Academy</a></li>
+          </ul>
+          <ul class="main-nav__user-items">
+            <li class="main-nav__user-item"><a class="main-nav__user-login" href="" title="Войти">Вход</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Конкурс на самое безбашенное путешествие с Пинк</p>
+    </header>
+
+    <section class="form">
+      <p>Поделитесь своей историей и получите шанс выиграть ценный приз - 1000 миль на вашу бонусную карту!</p>
+      <form >
+      <label for="surname">Фамилия</label>
+      <input type="text" name="surname" id="surname" placeholder="Укажите фамилию *" required>
+      <label for="name">Имя</label>
+      <input type="text" name="name" id="name" placeholder="Введите ваше имя *" required>
+      <label for="patronymic">Отчество</label>
+      <input type="text" name="patronymic" id="patronymic" placeholder="Ну и отчество тоже" required>
+      <p>Ваши безбашенные достижения в путешествии</p>
+      <input type="checkbox" name="selfi" id="selfi" checked>
+      <label for="selfi">Сделал селфи с акулой</label>
+      <input type="checkbox" name="beach" id="beach" checked>
+      <label for="beach">Обгорел на пляже</label>
+      <input type="checkbox" name="norris" id="norris">
+      <label for="norris">Видел Чака Норриса</label>
+      <input type="checkbox" name="souvenirs" id="souvenirs">
+      <label for="souvenirs">Накупил сувениров</label>
+      <input type="checkbox" name="tower" id="tower" checked>
+      <label for="tower">Удержал башню</label>
+      <input type="checkbox" name="hotel" id="hotel">
+      <label for="hotel">Разгромил отель</label>
+      </form>
+    </section>
+
+  </body>
+</html>
