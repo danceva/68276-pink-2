@@ -6,101 +6,90 @@
   </head>
   <body>
     <header class="page-header">
-      <h1 class="visually-hidden">Pink - поднимает настроение</h1>
-      <div class="page-header__logo">
-        <img src="http://placehold.it/150x100" width="" height="" alt="Pink">
+      <div class="page-header-wrapper">
+        <div class="page-header-wrapper__logo">
+          <img src="http://placehold.it/150x100" width="" height="" alt="Pink">
+        </div>
+        <button class="btn page-header-wrapper__button" type="button">Открыть меню</button>
       </div>
       <nav class="main-nav main-nav__closed main-nav--nojs">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__items">
-            <li class="main-nav__item  main-nav__item--active"><a>Главная</a></li>
-            <li class="main-nav__item"><a href="">Фотографии</a></li>
-            <li class="main-nav__item"><a href="">Конкурс</a></li>
-            <li class="main-nav__item"><a href="">HTML Academy</a></li>
-          </ul>
-          <ul class="main-nav__user-items">
-            <li class="main-nav__user-item"><a class="main-nav__user-login" href="" title="Войти">Вход</a></li>
-          </ul>
-        </div>
+        <ul class="main-nav-list">
+          <li class="main-nav-list__item  main-nav-list__item--active"><a>Главная</a></li>
+          <li class="main-nav-list__item"><a href="">Фотографии</a></li>
+          <li class="main-nav-list__item"><a href="">Конкурс</a></li>
+          <li class="main-nav-list__item"><a href="">HTML Academy</a></li>
+        </ul>
       </nav>
     </header>
     <section class="application">
       <a class="application__button">Скачать приложение</a>
-      <span class="application__links">
-        <a class="application-link  application-link--ios" href=""></a>
-        <a class="application-link  application-link--android" href=""></a>
-        <a class="application-link  application-link--win" href=""></a>
-      </span>
-      <p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      <div class="application__links">
+        <a class="application-link  application-link--ios" href="">iOS</a>
+        <a class="application-link  application-link--android" href="">Android</a>
+        <a class="application-link  application-link--win" href="">Windows Phone</a>
+      </div>
+      <p class="application__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+    </section>
+    <section class="intro">
+      <p class="intro__item">Устали от серости мегаполиса?</p>
+      <p class="intro__item">Нам есть, что вам предложить!</p>
     </section>
     <section class="advantages">
-      <header class="advantages__header">
-        <h2 class="advantages__title  visually-hidden">Наши преимущества</h2>
-        <p class="advantages__intro">Устали от серости мегаполиса?</p>
-        <p class="advantages__intro">Нам есть, что вам предложить!</p>
-      </header>
-      <ul class="advantages__items">
-        <li class="advantages__item">
-          <h3 class="advantages__item-title">Поднимает настроение</h3>
-          <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-        </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-title">Меняет мир вокруг</h3>
-          <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-        </li>
-        <li class="advantages__item">
-          <h3 class="advantages__item-title">Заводит новых друзей</h3>
-          <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
-        </li>
-      </ul>
+      <div class="advantages-item">
+        <h2 class="advantages-item__title">Поднимает настроение</h2>
+        <p class="advantages-item__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+      </div>
+      <div class="advantages-item">
+        <h2 class="advantages-item__title">Меняет мир вокруг</h2>
+        <p class="advantages-item__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+      </div>
+      <div class="advantages-item">
+        <h2 class="advantages-item__title">Заводит новых друзей</h2>
+        <p class="advantages-item__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+      </div>
     </section>
     <section class="reviews">
-      <div class="reviews__wrapper slider">
-        <div class="reviews__items">
-          <blockquote class="reviews__item slider__item">
-            <cite class="reviews__autor-name">Николай Петров</cite>
-            <p>"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А ещё я познакомился со своей будущей женой в комментариях к выложенной фотографии"</p>
-          </blockquote>
-          <blockquote class="reviews__item slider__item">
-            <cite class="reviews__autor-name"></cite>
-            <p></p>
-          </blockquote>
-          <blockquote class="reviews__item slider__item">
-            <cite class="reviews__autor-name"></cite>
-            <p></p>
-          </blockquote>
-          <button class="reviews_prev" type="button">Предыдущий отзыв</button>
-          <button class="reviews_next" type="button">Следующий отзыв</button>
+      <div class="reviews-items">
+        <div class="reviews-item">
+          <span class="reviews-item__name">Николай Петров</span>
+          <p class="reviews-item__text">"Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А ещё я познакомился со своей будущей женой в комментариях к выложенной фотографии"</p>
         </div>
+        <div class="reviews-item">
+          <span class="reviews-item__name">Максим Гальцев</span>
+          <p class="reviews-item__text">"Это приложение я установил по совету знакомых на телефон одним из первых. И абсолютно не зря!"</p>
+        </div>
+        <div class="reviews-item">
+          <span class="reviews-item__name">Вера Трубальская</span>
+          <p class="reviews-item__text">"Люблю загружать в свой телефончик всякие полезные программки. Это одно из них."</p>
+        </div>
+      </div>
+      <div class="reviews-toggle">
+        <input type="radio" id="reviews-toggle-1" checked>
+        <label for="reviews-toggle-1"></label>
+        <input type="radio" id="reviews-toggle-2">
+        <label for="reviews-toggle-2"></label>
+        <input type="radio" id="reviews-toggle-3">
+        <label for="reviews-toggle-3"></label>
       </div>
     </section>
     <section class="offer">
-      <div class="offer__wrapper slider">
-        <ul class="offer__items">
-          <li class="offer__item">Розовый фильтр</li>
-          <li class="offer__item">Смайлики</li>
-          <li class="offer__item">Комментарии</li>
-        </ul>
+      <table>
+      </table>
+    </section>
+    <section class="contacts">
+      <p class="contacts__text">Остались вопроса? Свяжитесь с нами!</p>
+      <div class="contacts-list">
+        <span class="contats-list__title">Звоните:</span>
+        <a class="contats-list__info" href="tel:+7(812)555-66-66">+7(812)555-66-66</a>
+      </div>
+      <div class="contacts-list">
+        <span class="contats-list__title">Пишите:</span>
+        <a class="contats-list__info" href="">mail@htmlacademy.ru</a>
+      </div>
+      <div class="contacts-list">
+        <span class="contats-list__title">Приезжайте в гости:</span>
+        <a class="contats-list__info" href="#">ул. Большая Конюшенная, 19/8</a>
       </div>
     </section>
-    <footer class="page-footer">
-      <div class="page-footer__wrapper">
-        <div class="page-footer__contacts">
-          <p>Остались вопроса?<br>Свяжитесь с нами!</p>
-          <ul>
-            <li>
-              <b>Звоните:</b><br>+7(812)555-66-66
-            </li>
-            <li>
-              <b>Пишите:</b><br>mail@htmlacademy.ru
-            </li>
-            <li>
-              <b>Приезжайте в гости:</b><br>ул. Большая Конюшенная, 19/8
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
   </body>
 </html>

@@ -6,25 +6,22 @@
   </head>
   <body>
 
-    <header>
-      <div class="page-header__logo">
-        <img src="http://placehold.it/150x100" width="" height="" alt="Pink">
+    <header class="page-header">
+      <div class="page-header-wrapper">
+        <div class="page-header-wrapper__logo">
+          <img src="http://placehold.it/150x100" width="" height="" alt="Pink">
+        </div>
+        <button class="btn page-header-wrapper__button" type="button">Открыть меню</button>
       </div>
       <nav class="main-nav main-nav__closed main-nav--nojs">
-        <button class="main-nav__toggle" type="button">Открыть меню</button>
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__items">
-            <li class="main-nav__item"><a>Главная</a></li>
-            <li class="main-nav__item  main-nav__item--active"><a href="">Фотографии</a></li>
-            <li class="main-nav__item"><a href="">Конкурс</a></li>
-            <li class="main-nav__item"><a href="">HTML Academy</a></li>
-          </ul>
-          <ul class="main-nav__user-items">
-            <li class="main-nav__user-item"><a class="main-nav__user-login" href="" title="Войти">Вход</a></li>
-          </ul>
-        </div>
+        <ul class="main-nav-list">
+          <li class="main-nav-list__item  main-nav-list__item--active"><a>Главная</a></li>
+          <li class="main-nav-list__item"><a href="">Фотографии</a></li>
+          <li class="main-nav-list__item"><a href="">Конкурс</a></li>
+          <li class="main-nav-list__item"><a href="">HTML Academy</a></li>
+        </ul>
       </nav>
-      <p>Взгляните на фотографии, которые выкладывают пользователи! Видите, как не хватает ваших?</p>
+      <div class="page-header__title">Фотографии пользователей</div>
     </header>
 
     <div class="reviews">
@@ -77,18 +74,17 @@
         <p class="reviews-item__comment">Всем GM и взаимные лайки!</p>
         <span class="reviews-item__like">Нравится: 2560</span>
       </div>
-      <p>Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
       <form>
+        <p class="form__text">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
         <input class="btn" type="submit" alt="Запостить">
         <input class="btn" type="submit" alt="Отмена" >
       </form>
     </div>
-
     <footer class="page-footer">
       <div class="page-footer__logo">
         <img src="http://placehold.it/150x100" width="" height="" alt="Pink">
       </div>
-      <div class="page-footer__social">
+      <div class="page-footer-social">
         <div class="social-links">
           <a class="social-link social-link--tw" href="#">Twitter</a>
           <a class="social-link social-link--fb" href="#">Facebook</a>
