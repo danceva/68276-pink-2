@@ -6,102 +6,106 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <header class="page-header">
-      <div class="page-header-wrapper">
-        <div class="page-header-wrapper-logo">
-          <img src="http://placehold.it/150x100" width="" height="" alt="Pink">
+    <div class="wrapper">
+      <header class="page-header">
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li class="main-nav-list__item  main-nav-list__item--active"><a>Главная</a></li>
+            <li class="main-nav-list__item"><a href="">Фотографии</a></li>
+            <li class="main-nav-list__item"><a href="">Конкурс</a></li>
+            <li class="main-nav-list__item"><a href="">HTML Academy</a></li>
+          </ul>
+        </nav>
+        <div class="page-header-menu">
+          <div class="page-header-menu-wrapper">
+            <div class="page-header-menu-wrapper-logo">
+              <img src="img/logo-pink-white-mobile.svg" width="75" height="23" alt="Pink">
+            </div>
+            <button class="button page-header-menu-wrapper-button" type="button">Открыть меню</button>
+          </div>
+          <img class="page-header-menu__img" src="img/iphone-hand-mobile@1x.png" width="258" height="286" alt="Телефон в руке">
         </div>
-        <button class="button page-header-wrapper-button" type="button">Открыть меню</button>
-        <img class="page-header_wrapper__img" src="img/iphone-hand-mobile@1x.png" width="258" height="286" alt="Телефон в руке">
-      </div>
-      <nav class="main-nav">
-        <ul class="main-nav-list">
-          <li class="main-nav-list__item  main-nav-list__item--active"><a>Главная</a></li>
-          <li class="main-nav-list__item"><a href="">Фотографии</a></li>
-          <li class="main-nav-list__item"><a href="">Конкурс</a></li>
-          <li class="main-nav-list__item"><a href="">HTML Academy</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section class="application">
-      <a class="application-button">Скачать приложение</a>
-      <div class="application__links">
-        <a class="application__link  application__link--ios" href="#">iOS</a>
-        <a class="application__link  application__link--android" href="#">Android</a>
-        <a class="application__link  application__link--win" href="#">Windows Phone</a>
-      </div>
-      <p class="application__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-    </section>
-    <section class="intro">
-      <p class="intro__item">Устали от серости мегаполиса?</p>
-      <p class="intro__item">Нам есть, что вам предложить!</p>
-    </section>
-    <section class="advantages">
-      <div class="advantages-item">
-        <h2 class="advantages-item__title">Поднимает настроение</h2>
-        <p class="advantages-item__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-      </div>
-      <div class="advantages-item">
-        <h2 class="advantages-item__title">Меняет мир вокруг</h2>
-        <p class="advantages-item__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-      </div>
-      <div class="advantages-item">
-        <h2 class="advantages-item__title">Заводит новых друзей</h2>
-        <p class="advantages-item__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
-      </div>
-      <div class="advantages__img"><img src="img/iphone-screen-mobile@1x.png" width="157" height="320"></div>
-    </section>
-    <section class="reviews">
-      <div class="reviews-items">
-        <div class="reviews-item">
-          <span class="reviews-item__name">Николай Петров</span>
-          <p class="reviews-item__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А ещё я познакомился со своей будущей женой в комментариях к выложенной фотографии»</p>
+      </header>
+      <section class="application">
+        <div class="application-button"><a>Скачать приложение</a></div>
+        <div class="application__links">
+          <a class="application__link  application__link--ios" href="#">iOS</a>
+          <a class="application__link  application__link--android" href="#">Android</a>
+          <a class="application__link  application__link--win" href="#">Windows Phone</a>
         </div>
-        <div class="reviews-item">
-          <span class="reviews-item__name">Максим Гальцев</span>
-          <p class="reviews-item__text">«Это приложение я установил по совету знакомых на телефон одним из первых. И абсолютно не зря!»</p>
+        <p class="application__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+      </section>
+      <section class="intro">
+        <p class="intro__item">Устали от серости мегаполиса?</p>
+        <p class="intro__item">Нам есть, что вам предложить!</p>
+      </section>
+      <section class="advantages">
+        <div class="advantages-item">
+          <h2 class="advantages-item__title">Поднимает настроение</h2>
+          <p class="advantages-item__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
         </div>
-        <div class="reviews-item">
-          <span class="reviews-item__name">Вера Трубальская</span>
-          <p class="reviews-item__text">«Люблю загружать в свой телефончик всякие полезные программки. Это одно из них.»</p>
+        <div class="advantages-item">
+          <h2 class="advantages-item__title">Меняет мир вокруг</h2>
+          <p class="advantages-item__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
         </div>
-      </div>
-      <div class="reviews-toggle">
-        <input class="reviews-toggle__input" type="radio" id="reviews-toggle-1" name="opinion" checked>
-        <label class="reviews-toggle__label" for="reviews-toggle-1"></label>
-        <input class="reviews-toggle__input" type="radio" id="reviews-toggle-2" name="opinion">
-        <label class="reviews-toggle__label" for="reviews-toggle-2"></label>
-        <input class="reviews-toggle__input" type="radio" id="reviews-toggle-3" name="opinion">
-        <label class="reviews-toggle__label" for="reviews-toggle-3"></label>
-      </div>
-    </section>
-    <section class="offer">
-      <table>
-      </table>
-      <div class="offer-toggle">
-        <input class="offer-toggle__input" type="radio" id="offer-toggle-1" name="proposal" checked>
-        <label class="offer-toggle__label" for="offer-toggle-1"></label>
-        <input class="offer-toggle__input" type="radio" id="offer-toggle-2" name="proposal">
-        <label class="offer-toggle__label" for="offer-toggle-2"></label>
-        <input class="offer-toggle__input" type="radio" id="offer-toggle-3" name="proposal">
-        <label class="offer-toggle__label" for="offer-toggle-3"></label>
-      </div>
-    </section>
-    <section class="contacts">
-      <p class="contacts__text">Остались вопросы? Свяжитесь с нами!</p>
-      <div class="contacts-list">
-        <span class="contacts-list__title">Звоните:</span>
-        <a class="contacts-list__info" href="tel:+7(812)555-66-66">+7(812)555-66-66</a>
-      </div>
-      <div class="contacts-list">
-        <span class="contacts-list__title">Пишите:</span>
-        <a class="contacts-list__info" href="">mail@htmlacademy.ru</a>
-      </div>
-      <div class="contacts-list">
-        <span class="contacts-list__title">Приезжайте в гости:</span>
-        <a class="contacts-list__info" href="#">ул. Большая Конюшенная, 19/8</a>
-      </div>
-      <div class="contacts__map"></div>
-    </section>
+        <div class="advantages-item">
+          <h2 class="advantages-item__title">Заводит новых друзей</h2>
+          <p class="advantages-item__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        </div>
+        <div class="advantages__img"><img src="img/iphone-screen-mobile@1x.png" width="157" height="320"></div>
+      </section>
+      <section class="reviews">
+        <div class="reviews-items">
+          <div class="reviews-item">
+            <span class="reviews-item__name">Николай Петров</span>
+            <p class="reviews-item__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А ещё я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+          </div>
+          <div class="reviews-item">
+            <span class="reviews-item__name">Максим Гальцев</span>
+            <p class="reviews-item__text">«Это приложение я установил по совету знакомых на телефон одним из первых. И абсолютно не зря!»</p>
+          </div>
+          <div class="reviews-item">
+            <span class="reviews-item__name">Вера Трубальская</span>
+            <p class="reviews-item__text">«Люблю загружать в свой телефончик всякие полезные программки. Это одно из них.»</p>
+          </div>
+        </div>
+        <div class="reviews-toggle">
+          <input class="reviews-toggle__input" type="radio" id="reviews-toggle-1" name="opinion" checked>
+          <label class="reviews-toggle__label" for="reviews-toggle-1"></label>
+          <input class="reviews-toggle__input" type="radio" id="reviews-toggle-2" name="opinion">
+          <label class="reviews-toggle__label" for="reviews-toggle-2"></label>
+          <input class="reviews-toggle__input" type="radio" id="reviews-toggle-3" name="opinion">
+          <label class="reviews-toggle__label" for="reviews-toggle-3"></label>
+        </div>
+      </section>
+      <section class="offer">
+        <table>
+        </table>
+        <div class="offer-toggle">
+          <input class="offer-toggle__input" type="radio" id="offer-toggle-1" name="proposal" checked>
+          <label class="offer-toggle__label" for="offer-toggle-1"></label>
+          <input class="offer-toggle__input" type="radio" id="offer-toggle-2" name="proposal">
+          <label class="offer-toggle__label" for="offer-toggle-2"></label>
+          <input class="offer-toggle__input" type="radio" id="offer-toggle-3" name="proposal">
+          <label class="offer-toggle__label" for="offer-toggle-3"></label>
+        </div>
+      </section>
+      <section class="contacts">
+        <p class="contacts__text">Остались вопросы? Свяжитесь с нами!</p>
+        <div class="contacts-list">
+          <span class="contacts-list__title">Звоните:</span><br>
+          <a class="contacts-list__info" href="tel:+7(812)555-66-66">+7(812)555-66-66</a>
+        </div>
+        <div class="contacts-list">
+          <span class="contacts-list__title">Пишите:</span><br>
+          <a class="contacts-list__info" href="">mail@htmlacademy.ru</a>
+        </div>
+        <div class="contacts-list">
+          <span class="contacts-list__title">Приезжайте в гости:</span><br>
+          <a class="contacts-list__info" href="#">ул. Большая Конюшенная, 19/8</a>
+        </div>
+        <div class="contacts__map"></div>
+      </section>
+    </div>
   </body>
 </html>
