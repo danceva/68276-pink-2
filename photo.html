@@ -31,9 +31,9 @@
       </div>
       <div class="photo-blog">
         <div class="photo-blog-item">
-          <figure class="photo-blog-item__photo">
+          <figure class="photo-blog-item__photo-main">
             <span class="photo-blog-item__photo-title">Панорама дня</span>
-            <img src="http://placehold.it/150x100" width="" height="" alt="Фото отзыва">
+            <img class="photo-blog-item__photo-main" src="http://placehold.it/150x100" width="" height="" alt="Фото отзыва">
           </figure>
           <div class="photo-blog-item__text">
             <span class="photo-blog-item__name">Анна</span>
@@ -100,19 +100,18 @@
       <div class="title">
         <p class=title__text>Затмите их всех!<br> Выкладывайте все, что накопилось в телефоне!</p>
       </div>
-      <div class="photo-post">
+      <form class="photo-post">
         <div class="photo-post-img"><img src="http://placehold.it/150x100" width="280" height="370" alt="Ваше фото"></div>
         <div class="photo-post-control">
           <img src="http://placehold.it/150x100" width="50" height="50" alt="Кадрировать">
           <img src="http://placehold.it/150x100" width="50" height="50" alt="Заливка">
           <img src="http://placehold.it/150x100" width="50" height="50" alt="Яркость">
         </div>
-        <input type="range">
         <div class="photo-post-button">
-          <button class="button  button--red">Запостить</button>
-          <button class="button  button--gray">Отмена</button>
+          <input class="button  button--red" type="submit" alt="Запостить">
+          <input class="button  button--gray" type="reset" alt="Отмена">
         </div>
-      </div>
+      </form>
       <footer class="page-footer">
         <div class="page-footer-logo">
           <img src="http://placehold.it/150x100" width="" height="" alt="Pink">

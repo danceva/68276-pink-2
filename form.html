@@ -103,21 +103,23 @@
               <textarea class="form-element__textarea">Можно прям в красках, не стесняясь в выражениях</textarea>
             </div>
           </div>
-          <input class="button" type="submit" alt="Отправить форму">
-          <p class="form__warning">* - обязательные поля</p>
+          <input class="button button--green" type="submit" value="Отправить форму">
+          <p class="form__warning"><span class="form__warning--pink">*</span> — обязательные поля</p>
         </form>
       </section>
 
       <div class="popup">
         <span class="popup__title">Что-то пошло не так!</span>
         <p class="popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-        <button type="button" class="popup__button">Ок</button>
+        <button type="button" class="button button--green">Ок</button>
       </div>
 
       <div class="popup">
         <span class="popup__title">Ваша заявка отправлена</span>
         <p class="popup__text">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
-        <button type="button" class="popup__button">Закрыть окно</button>
+        <div class="popup__wrapper-button">
+          <button type="button" class="button button--green">Закрыть окно</button>
+        </div>
       </div>
 
       <footer class="page-footer">
