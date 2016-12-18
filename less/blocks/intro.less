@@ -2,7 +2,7 @@
   padding: 40px 20px;
   font-size: 24px;
   line-height: 32px;
-  font-weight: lighter;
+  font-weight: 300;
   text-align: center;
   background-color: #ffffff;
 }
@@ -10,4 +10,22 @@
 .intro__item {
   margin: 0;
   margin-bottom: 30px;
+}
+
+@media @tablet-widths {
+  .intro {
+    width: 590px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .intro__item {
+    margin: 0;
+  }
+
+  .intro__item:nth-child(2) {
+    width: 500px;
+    margin: 0 auto;
+  }
 }

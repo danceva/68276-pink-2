@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="normalize.less">
   </head>
   <body>
     <div class="wrapper">
@@ -28,6 +27,7 @@
         </div>
       </header>
       <section class="application">
+        <h1 class="application__title  hidden-tablet">Взгляните на жизнь иначе!</h1>
         <div class="application-button button"><a>Скачать приложение</a></div>
         <div class="application__links">
           <a class="application__link  application__link--ios" href="#">iOS</a>
@@ -41,19 +41,33 @@
         <p class="intro__item">Нам есть, что вам предложить!</p>
       </section>
       <section class="advantages">
-        <div class="advantages-item">
-          <h2 class="advantages-item__title">Поднимает настроение</h2>
-          <p class="advantages-item__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
-        </div>
-        <div class="advantages-item">
-          <h2 class="advantages-item__title">Меняет мир вокруг</h2>
-          <p class="advantages-item__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
-        </div>
-        <div class="advantages-item">
-          <h2 class="advantages-item__title">Заводит новых друзей</h2>
-          <p class="advantages-item__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        <div class="advantages__wrapper">
+          <div class="advantages-item">
+            <h2 class="advantages-item__title">Поднимает настроение</h2>
+            <p class="advantages-item__text">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+          </div>
+          <div class="advantages-item">
+            <h2 class="advantages-item__title">Меняет мир вокруг</h2>
+            <p class="advantages-item__text">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+          </div>
+          <div class="advantages-item">
+            <h2 class="advantages-item__title">Заводит новых друзей</h2>
+            <p class="advantages-item__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+          </div>
         </div>
         <div class="advantages__img"><img src="img/iphone-screen-mobile@1x.png" width="157" height="320"></div>
+      </section>
+      <section class="effect hidden-tablet">
+        <div class="effect-img">
+          <img src="http://placehold.it/150x100" width="245" height="280">
+        </div>
+        <div class="effect-item">
+          <div class="effect-item__title">Эффект на 24 часа!</div>
+          <p class="effect-item__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые судки!</p>
+          <div class="effect-item__a">
+            <a href="">Узнать больше об исследовании</a>
+          </div>
+        </div>
       </section>
       <section class="reviews">
         <div class="reviews-items">
