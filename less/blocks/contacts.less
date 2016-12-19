@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0 20px;
   font-size: 24px;
-  font-weight: lighter;
+  font-weight: 300;
   line-height: 30px;
   text-align: center;
 }
@@ -16,4 +16,23 @@
   margin-top: 25px;
   height: 300px;
   background: #ffffff url(../../img/bg-map-mobile@1x.png) no-repeat center;
+}
+
+@media @tablet-widths {
+  .contacts__wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .contacts__text {
+    width: 375px;
+    margin: 0 auto;
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .contacts__map {
+    width: 100%;
+    background: #ffffff url(../../img/bg-map-mobile@1x.png);
+  }
 }

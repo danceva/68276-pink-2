@@ -23,7 +23,6 @@
             </div>
             <button class="page-header-menu-wrapper-button" type="button">Открыть меню</button>
           </div>
-          <img class="page-header-menu__img" src="img/iphone-hand-mobile@1x.png" width="258" height="286" alt="Телефон в руке">
         </div>
       </header>
       <section class="application">
@@ -55,15 +54,14 @@
             <p class="advantages-item__text">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
           </div>
         </div>
-        <div class="advantages__img"><img src="img/iphone-screen-mobile@1x.png" width="157" height="320"></div>
       </section>
-      <section class="effect hidden-tablet">
+      <section class="effect hidden-tablet__flex">
         <div class="effect-img">
           <img src="http://placehold.it/150x100" width="245" height="280">
         </div>
         <div class="effect-item">
           <div class="effect-item__title">Эффект на 24 часа!</div>
-          <p class="effect-item__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые судки!</p>
+          <p class="effect-item__text">Британские ученые провели исследования и доказали, что положительный эффект от использования приложения длится целые сутки!</p>
           <div class="effect-item__a">
             <a href="">Узнать больше об исследовании</a>
           </div>
@@ -73,6 +71,7 @@
         <div class="reviews-items">
           <div class="reviews-item">
             <span class="reviews-item__name">Николай Петров</span>
+            <span class="reviews-item__age  hidden-tablet">25 лет, водитель трамвая</span>
             <p class="reviews-item__text">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А ещё я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
           </div>
           <div class="reviews-item">
@@ -131,20 +130,36 @@
       </section>
       <section class="contacts">
         <p class="contacts__text">Остались вопросы? Свяжитесь с нами!</p>
-        <div class="contacts-list">
-          <span class="contacts-list__title">Звоните:</span><br>
-          <a class="contacts-list__info" href="tel:+7(812)555-66-66">+7(812)555-66-66</a>
-        </div>
-        <div class="contacts-list">
-          <span class="contacts-list__title">Пишите:</span><br>
-          <a class="contacts-list__info" href="">mail@htmlacademy.ru</a>
-        </div>
-        <div class="contacts-list">
-          <span class="contacts-list__title">Приезжайте в гости:</span><br>
-          <a class="contacts-list__info" href="#">ул. Большая Конюшенная, 19/8</a>
+        <div class="contacts__wrapper">
+          <div class="contacts-list">
+            <span class="contacts-list__title">Звоните:</span><br>
+            <a class="contacts-list__info" href="tel:+7(812)555-66-66">+7(812)555-66-66</a>
+          </div>
+          <div class="contacts-list">
+            <span class="contacts-list__title">Пишите:</span><br>
+            <a class="contacts-list__info" href="">mail@htmlacademy.ru</a>
+          </div>
+          <div class="contacts-list">
+            <span class="contacts-list__title">Приезжайте в гости:</span><br>
+            <a class="contacts-list__info" href="#">ул. Большая Конюшенная, 19/8</a>
+          </div>
         </div>
         <div class="contacts__map"></div>
       </section>
+      <footer class="page-footer hidden-tablet__flex">
+        <div class="page-footer-logo">
+          <img src="http://placehold.it/150x100" width="" height="" alt="Pink">
+        </div>
+        <div class="page-footer-social">
+          <a class="page-footer-social__link  page-footer-social__link--tw" href="#">Twitter</a>
+          <a class="page-footer-social__link  page-footer-social__link--fb" href="#">Facebook</a>
+          <a class="page-footer-social__link  page-footer-social__link--yt" href="#">You Tube</a>
+        </div>
+        <div class="page-footer-copyright">
+          Разработано
+          <a class="page-footer-copyright__link" href="#">HTML Academy</a>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
