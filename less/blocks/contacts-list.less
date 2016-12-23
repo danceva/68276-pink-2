@@ -37,7 +37,20 @@
 }
 
 @media @desktop-widths {
-  .contacts-list {
-    width: 250px;
+    .contacts-list:nth-child(1) {
+      width: 245px;
+  }
+    .contacts-list:nth-child(2) {
+      order: 2;
+      width: 245px;
+  }
+    .contacts-list:nth-child(3) {
+      width: 245px;
+  }
+
+  .contacts-list__title {
+    display: block;
+    margin-top: 30px;
+    font-size: 18px;
   }
 }

@@ -17,9 +17,40 @@
   color: #d22856;
 }
 
-@media @desktop-widths {
-  .form-block__app {
+@media @tablet-widths {
+  .form-block {
+    margin-bottom: 66px;
+  }
+
+  .form-block__title {
+    width: 380px;
+  }
+
+  .form-block--gray {
+    background: none;
+  }
+
+  .form-block--name {
+    order: -5;
+  }
+
+  .form-block--ach {
+    .border();
+    order: -2;
+  }
+
+  .form-block--contact {
+    .border();
+    order: -3;
+  }
+
+  .form-block--app {
+    .border();
+    order: -4;
+  }
+
+  .form-block--description {
+    .border();
     order: -1;
-    background: #000000;
   }
 }
