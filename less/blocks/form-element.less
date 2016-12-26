@@ -19,7 +19,7 @@
 
 .form-element__input {
   width: 280px;
-  padding: 13px 0;
+  padding: 14px 0;
   padding-left: 20px;
   font-size: 18px;
   font-family: "Open Sans", Arial, sans-serif;
@@ -42,10 +42,23 @@
   border: 2px solid #e5e5e5;
 }
 
+input::-webkit-input-placeholder {
+  color: #000000;
+}
+
+input:-moz-placeholder {
+  color: #000000;
+}
+
 @media @tablet-widths {
   .form-element {
     display: flex;
     align-items: center;
+    margin-bottom: 55px;
+  }
+  
+  .form-element:last-child {
+    margin-bottom: 0;
   }
 
   .form-element__input {
@@ -56,11 +69,16 @@
 
   .form-element__label-text {
     padding-left: 0;
+    margin: 0;
   }
 
   .form-block--contact .form-element {
     display: flex;
     flex-direction: column-reverse;
+  }
+  
+  .form-block--contact .form-element__input {
+    margin-left: 0;
   }
 
   .form-element__textarea {

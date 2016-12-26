@@ -24,7 +24,8 @@
 
 @media @tablet-widths {
   .form-block {
-    margin-bottom: 66px;
+    position: relative;
+    margin-bottom: 60px;
   }
 
   .form-block__title {
@@ -37,25 +38,45 @@
 
   .form-block--name {
     order: -5;
+    padding: 0;
   }
 
   .form-block--ach {
     .border();
     order: -2;
+    padding: 45px 60px;
   }
 
   .form-block--contact {
     .border();
-    order: -3;
+    order: -3;    
+    padding: 45px 60px;
   }
 
   .form-block--app {
     .border();
     order: -4;
+    padding: 45px 60px;
   }
 
   .form-block--description {
     .border();
     order: -1;
+  }
+  
+  .form-block__title--app {
+    position: absolute;
+    top: -30px;
+    left: 116px;
+    width: 370px;
+    background: #ffffff;
+  }
+  
+  .form-block__title--contact {
+    position: absolute;
+    top: -30px;
+    left: 175px;
+    width: 260px;
+    background: #ffffff;
   }
 }
