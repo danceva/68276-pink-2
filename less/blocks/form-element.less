@@ -56,7 +56,7 @@ input:-moz-placeholder {
     align-items: center;
     margin-bottom: 55px;
   }
-  
+
   .form-element:last-child {
     margin-bottom: 0;
   }
@@ -76,14 +76,36 @@ input:-moz-placeholder {
     display: flex;
     flex-direction: column-reverse;
   }
-  
+
   .form-block--contact .form-element__input {
     margin-left: 0;
   }
 
+  .form-block--contact .form-element__label-text {
+    width: 460px;
+    padding-top: 5px;
+  }
+
   .form-element__textarea {
-    width: 496px;
+    width: 475px;
     margin: 0 auto;
+  }
+
+  .form-element__input--after {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .form-element__input--after::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 62px;
+    height: 62px;
+    background-color: #e5e5e5;
   }
 
 }

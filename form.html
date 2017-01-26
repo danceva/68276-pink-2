@@ -47,7 +47,7 @@
               </div>
             </div>
             <div class="form-block  form-block--gray  form-block--ach">
-              <p class="form-block__title">Ваши безбашенные достижения в путешествии</p>
+              <p class="form-block__title form-block__title--travel">Ваши безбашенные достижения в путешествии</p>
               <div class="form-element">
                 <input class="form-element__checkbox" type="checkbox" name="selfi" id="selfi" checked>
                 <label class="form-element__label" for="selfi">Сделал селфи с акулой</label>
@@ -77,11 +77,15 @@
               <p class="form-block__title  form-block__title--contact hidden-tablet">Контактная информация</p>
               <div class="form-element">
                 <label class="form-element__label-text" for="phone">Номер телефона</label>
-                <input class="form-element__input" type="tel" name="phone" id="phone" placeholder="Номер, пожалуйста">
+                <div class="form-element__input--after">
+                  <input class="form-element__input" type="tel" name="phone" id="phone" placeholder="Номер, пожалуйста">
+                </div>
               </div>
               <div class="form-element">
                 <label class="form-element__label-text" for="email">Адрес почты</label>
-                <input class="form-element__input" type="email" name="email" id="email" placeholder="Введите почту *" required>
+                <div class="form-element__input--after">
+                  <input class="form-element__input" type="email" name="email" id="email" placeholder="Введите почту *" required>
+                </div>
               </div>
             </div>
             <div class="form-block  form-block--gray  form-block--app">
@@ -100,7 +104,7 @@
               </div>
             </div>
             <div class="form-block  form-block--description">
-              <p class="form-block__title">Опишите свои эмоции</p>
+              <p class="form-block__title  form-block__title--description">Опишите свои эмоции</p>
               <div class="form-element">
                 <textarea class="form-element__textarea">Можно прям в красках, не стесняясь в выражениях</textarea>
               </div>
@@ -123,7 +127,7 @@
         <span class="popup__title">Ваша заявка отправлена</span>
         <p class="popup__text">Спасибо за ваше участие, ваша заявка уже поступила к нам. В ближайшее время мы рассмотрим ее и оповестим вас.</p>
         <div class="popup__wrapper-button">
-          <button type="button" class="button button--green">Закрыть окно</button>
+          <button type="button" class="button  button--green  button--ongray">Закрыть окно</button>
         </div>
       </div>
 
